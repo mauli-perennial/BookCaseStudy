@@ -1,0 +1,11 @@
+
+B
+java:S1172",Remove this unused method parameter "users".(ÉîÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(î¹¸ê
+M	java:S106"9Replace this use of System.out or System.err by a logger.(»ÛË
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñé¹ˆıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤…°Ùøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(É’·›úÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(´âãŸüÿÿÿÿ
