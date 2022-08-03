@@ -2,8 +2,6 @@ package data.sample;
 
 import org.store.book.Book;
 import org.store.book.BookStatus;
-import org.store.book.User;
-
 
 import java.util.*;
 
@@ -17,7 +15,7 @@ public class BookSamples {
         try{
             List<String> authors = new ArrayList<>(Arrays.asList("mauli","kunal"));
             List<String> keyWord = new ArrayList<>(Arrays.asList("sad","happy"));
-            list.add(new Book(1,"ramayana",authors,convertDate("12-02-2022"),keyWord, BookStatus.AVAILABLE.getName()));
+            list.add(new Book(1,"rama",authors,convertDate("12-02-2022"),keyWord, BookStatus.AVAILABLE.getName()));
         }catch(Exception e){
 
             System.out.println("error in the sample date of the books");
