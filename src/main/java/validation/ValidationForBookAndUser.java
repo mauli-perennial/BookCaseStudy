@@ -23,6 +23,8 @@ public class ValidationForBookAndUser {
     public static Date convertDate(String date) throws ParseException {
         return sdf.parse(date);
     }
+
+
     public static boolean validateBookName(String name){
         boolean isValid = false;
         if((name != null) && name.matches("^[a-zA-Z0-9]*$")){
@@ -30,6 +32,8 @@ public class ValidationForBookAndUser {
         }
         return isValid;
     }
+
+    
 public static boolean validateName(String name){
         boolean isValid = false;
         if((name != null) && name.matches("^[a-zA-Z]*$")){
